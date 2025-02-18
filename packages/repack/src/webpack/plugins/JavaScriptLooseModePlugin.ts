@@ -42,6 +42,7 @@ export class JavaScriptLooseModePlugin implements WebpackPlugin {
       (compilation: webpack.Compilation) => {
         compilation.moduleTemplates.javascript.hooks.render.tap(
           'JavaScriptLooseModePlugin',
+          // @ts-ignore
           (
             moduleSource: webpack.sources.Source,
             { resource }: { resource: string }

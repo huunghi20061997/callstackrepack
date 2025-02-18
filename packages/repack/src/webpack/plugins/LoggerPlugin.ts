@@ -150,7 +150,7 @@ export class LoggerPlugin implements WebpackPlugin {
     compiler.hooks.infrastructureLog.tap(
       'LoggerPlugin',
       (issuer, type, args) => {
-        const entry = this.createEntry(issuer, type, args);
+        const entry = this.createEntry(issuer, type, args ?? []);
         if (entry) {
           this.processEntry(entry);
         }
