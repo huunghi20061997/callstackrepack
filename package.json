@@ -1,6 +1,12 @@
 {
   "name": "repack",
   "private": true,
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ]
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo watch --continue build",
@@ -39,5 +45,6 @@
     "prettier": "^3.3.3",
     "turbo": "^2.0.14",
     "typescript": "^5.5.3"
-  }
+  },
+  "packageManager": "yarn@4.6.0"
 }
