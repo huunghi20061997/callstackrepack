@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","names":["_OutputPlugin","require"],"sources":["../../../../src/webpack/plugins/OutputPlugin/index.ts"],"sourcesContent":["export { OutputPlugin } from './OutputPlugin';\nexport type * from './types';\n"],"mappings":";;;;;;;;;;;AAAA,IAAAA,aAAA,GAAAC,OAAA","ignoreList":[]}
