@@ -1,5 +1,5 @@
 {
-  "name": "@callstack/repack",
+  "name": "callstack-huunghi",
   "version": "4.4.1",
   "description": "A Webpack-based toolkit to build your React Native application with full support of Webpack ecosystem.",
   "main": "dist/index.js",
