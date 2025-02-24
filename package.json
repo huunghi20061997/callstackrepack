@@ -1,12 +1,15 @@
 {
   "name": "repack",
   "private": true,
-  "workspaces": {
-    "packages": [
-      "apps/*",
-      "packages/*"
-    ]
-  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "nohoist": [
+    "**/react-native",
+    "**/react",
+    "**/react-native/**"
+  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo watch --continue build",

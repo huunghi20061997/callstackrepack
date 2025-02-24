@@ -261,6 +261,8 @@ export namespace Federated {
       __webpack_share_scopes__[scope].__isInitialized = true;
     }
 
+    // console.log('importModule_79797979', containerName);
+
     // Do not use `const container = self[containerName];` here. Once container is loaded
     // `container` reference is not updated, so `container.__isInitialized`
     // will crash the application, because of reading property from `undefined`.

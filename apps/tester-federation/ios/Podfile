@@ -8,7 +8,7 @@ workspace 'ModuleFederationTester.xcworkspace'
 
 options = {
   :bridgeless_enabled => false,
-  :fabric_enabled => true,
+  :fabric_enabled => false,
   :hermes_enabled => true,
 }
 
